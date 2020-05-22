@@ -66,6 +66,7 @@ class Register extends React.Component {
     } else {
       return true;
     }
+    
   };
 
   displayErrors = errors =>
