@@ -23,7 +23,7 @@ class MessagesHeader extends React.Component {
               <Icon
                 onClick={handleStar}
                 name={isChannelStarred ? "star" : "star outline"}
-                color={isChannelStarred ? "red" : "black"}
+                color={isChannelStarred ? "yellow" : "black"}
               />
             )}
           </span>
